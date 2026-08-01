@@ -4,6 +4,27 @@ All notable updates to Pulse are documented here.
 
 ---
 
+## [2.5] — 2026-08
+
+This entry consolidates several releases that shipped without a changelog update since 2.4 — dates within this range aren't individually tracked.
+
+### Added
+- **Discord Activity** — launch a fully synced player from any voice channel's Activities picker; everyone in the channel sees the same queue, live emoji reactions, and milestone celebrations
+- **Companion Remote** (`pulsemusicbot.org/remote`) — install as a PWA and control Pulse from your phone without ever opening Discord: full playback controls, queue reordering, soundboard, and audio filters
+- **DJ Builder** — write Kara a custom voice and personality that stays in character across chapters, intros, and dedications
+- **On-air dedications** (`/request`) — queue a song with a message and Kara reads it out live before it plays
+- **Scheduled shows** (`/show`) — book Kara to host a recurring themed set at a set day, time, and timezone
+- **Wrapped & listening stats** (`/wrapped me` / `server` / `match`) — personal and server-wide recaps, taste-compatibility scoring, and milestone celebrations
+- **Welcome messages** (`/welcome`) — greet new members automatically with a customisable message
+- **Distortion** (`/distortion`) and **Low-Pass** (`/lowpass`) audio filters, alongside the existing effects
+- **Vote perk** (`/vote`) — vote for Pulse on top.gg for a temporary bigger queue limit
+
+### Fixed
+- Soundboard clips now fade the main track out and back in instead of cutting to it instantly
+- Soundboard clips can now be fired from the Remote — previously required being in the bot's own voice channel, which the Remote can never satisfy by design
+
+---
+
 ## [2.4] — 2025-05
 
 ### Added
